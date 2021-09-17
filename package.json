@@ -6,10 +6,11 @@
   "scripts": {
     "start": "nodemon ./index.js --exec babel-node -e js",
     "test": "mocha --exit './test/**/*.spec.js' || true",
-    "test:module2": "mocha --exit './test/module2/*.spec.js' || true",
-    "test:module3": "mocha --exit './test/module3/*.spec.js' || true",
-    "test:module4": "mocha --exit './test/module4/*.spec.js' || true",
-    "test:module5": "mocha --exit './test/module5/*.spec.js' || true"
+    "test2": "mocha --exit './test/**/*.spec.js'",
+    "test:module2": "mocha --exit './test/module2/*.spec.js'",
+    "test:module3": "mocha --exit './test/module3/*.spec.js'",
+    "test:module4": "mocha --exit './test/module4/*.spec.js'",
+    "test:module5": "mocha --exit './test/module5/*.spec.js'"
   },
   "author": "Emmanuel Henri",
   "license": "ISC",
@@ -18,7 +19,7 @@
     "expect.js": "^0.3.1",
     "express": "^4.17.1",
     "mocha": "^7.0.1",
-    "mongoose": "^5.8.11",
+    "mongoose": "^5.13.9",
     "nodemon": "^2.0.2"
   },
   "devDependencies": {
